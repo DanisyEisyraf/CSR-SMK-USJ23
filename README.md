@@ -1,13 +1,13 @@
 ## CSR SMK USJ-23
-This repository consist of *Java source code* as teaching materials for secondary school students in 4 hours (3hr Teaching + 1hr Quiz).
+This repository consists of *Java source code* as teaching materials for secondary school students in 4 hours (3hr Teaching + 1hr Quiz).
 
 ### Source code will cover:
 
 1. Output, Your first program
-2. Data type, primitive data types/variables
-3. Input/Ouput
+2. Data types, primitive data types/variables
+3. Input/Output
 4. If, statement, blocks, comments
-5. If else, switch
+5. If-else, switch
 6. while, do while, for loops
 7. Methods/Functions
 8. Basic data structures **(Optional)**
