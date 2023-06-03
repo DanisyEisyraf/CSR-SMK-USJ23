@@ -18,4 +18,4 @@ public class Lesson2 {
   }
 }
 
-// Practice: other things - DOB, luckyNumber, born state
+// Practice: other things - DOB, luckyNumber, born state, string manipulation

@@ -1,15 +1,18 @@
 ## CSR SMK USJ-23
-This repository consist of *Java source code* as teaching materials for highschool students in 4 hours (3hr Teaching + 1hr Quiz).
+This repository consist of *Java source code* as teaching materials for secondary school students in 4 hours (3hr Teaching + 1hr Quiz).
 
 ### Source code will cover:
-1. Basic Input/Output
-2. Primitive data types/variables
-3. Statement, blocks, comments
-4. If else, switch(Control flow statements)
-5. while, do while, for loops
-6. Methods/Functions
-7. Optional: Simple data structures, File handling
-8. Optioanl: GUI development
+
+1. Output, Your first program
+2. Data type, primitive data types/variables
+3. Input/Ouput
+4. If, statement, blocks, comments
+5. If else, switch
+6. while, do while, for loops
+7. Methods/Functions
+8. Basic data structures **(Optional)**
+9. File I/O, try catch exception **(Optional)**
+10. GUI development **(Optional)**
 
 ### Hour 1: Introduction and Setup
 
@@ -36,12 +39,12 @@ This repository consist of *Java source code* as teaching materials for highscho
 - Provide examples and exercises for students to practice using control structures.
 
 ### Hour 4: Quiz and Summary Recap
-- Conduct Quiz with prizes
+- Conduct Quiz with prizes.
 - Discuss future use case of Java (OOP, Web/Mobile/Desktop enterprise software development, Financial system). 
 - Throughout the class, encourage students to ask questions (QnA) and provide hands-on exercises or coding challenges to reinforce the concepts taught.
-- Outro with programming advices - ways to learn code (Hackathon, collaboration)
+- Outro with programming advices - ways to learn code (Hackathon, collaboration).
 
-**Note:** 
+**Notes/Advices:** 
 1. Emphasize that use of ChatGPT, online resources, project-based learning, open-source contribution for skillset improvement and better career opportunities. 
 2. Emphasize the importance of planning, drafting out approach for big projects before coding.
 3. Differences between programming and coding.

@@ -1,41 +1,34 @@
-// File I/O, try catch exception
+// Basic data structures
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.HashMap;
 
 public class Lesson8 {
   public static void main(String[] args) {
-    String rFileName = "input.txt";
+    // Arrays
+    int[] numbers = {56, 51, 75, 88, 99};
+    System.out.println(numbers[0]);
     
-    // reading from file
-    try {
-      BufferedReader reader = new BufferedReader(new FileReader(rFileName));
-      String line;
-      while ((line = reader.readLine()) != null) {
-        System.out.println(line);
-      }
-      reader.close();
-    } catch (IOException e) {
-      System.out.println("An error occurred while reading the file: " + e.getMessage());
+    // list
+    List<String> subjects = new ArrayList<>();
+    subjects.add("Physics");
+    subjects.add("Biology");
+    subjects.add("Chemistry");
+    System.out.println(subjects.get(0));
+    System.out.println("All subjects are shown below: ");
+    for (String s : subjects) {
+      System.out.println(s);
     }
     
-    // writing to file
-    String wFileName = "output.txt";
-    try {
-      BufferedWriter writer = new BufferedWriter(new FileWriter(wFileName));
-      writer.write("This is a sample text.");
-      writer.newLine();
-      writer.close();
-      System.out.println("Data has been written to the file.");
-      writer.close();
-    } catch (IOException e) {
-      System.out.println("An error occurred while reading the file: " + e.getMessage());
-    }
+    Map<String, Integer> examScores = new HashMap<>();
+    examScores.put("Alice", 90);
+    examScores.put("Bob", 85);
+    int aliceScore = examScores.get("Alice");
+    System.out.println("Alice gets " + aliceScore + " marks");
   }
 }
 
-// File handling works on online compiler
-// Practice: File copying, word count from file
+// Practice: Find min/max, reverse in int array, 
+// Practice: hashmap - calculate average grade, highest grade student name  
