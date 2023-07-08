@@ -73,7 +73,7 @@ int count = 0;
 
 while (10 > 0) {
   count += 1;
-  10 /= 10;
+  num /= 10;
 }
 
 System.out.println(count)
